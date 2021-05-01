@@ -81,6 +81,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnBuscar">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/btnbuscar.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Buscar"/>
       </Properties>
       <Events>
@@ -143,6 +146,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnFechar">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/btnfechar.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Fechar"/>
       </Properties>
       <Events>
@@ -159,6 +165,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnBonus">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/btnbonus.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Ver B&#xf4;nus"/>
       </Properties>
       <Events>
@@ -167,6 +176,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnVisualizar">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagens/btnusuario.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Visualizar"/>
       </Properties>
       <Events>

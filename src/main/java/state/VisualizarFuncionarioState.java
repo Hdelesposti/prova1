@@ -5,10 +5,23 @@
  */
 package state;
 
+import presenter.ManterFuncionarioPresenter;
+import view.ManterFuncionarioView;
+
 /**
  *
  * @author Heloiza
  */
-public class VisualizarFuncionarioState {
+public class VisualizarFuncionarioState extends ManterFuncionarioState {
+    
+   private ManterFuncionarioView view;
+
+    public VisualizarFuncionarioState(ManterFuncionarioPresenter presenter) {
+    }
+    
+    public void visualizazao(){
+    }
+   
+   
     
 }

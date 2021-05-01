@@ -1,14 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package state;
+
+import model.Funcionario;
+import presenter.ManterFuncionarioPresenter;
+import view.ManterFuncionarioView;
 
 /**
  *
  * @author Heloiza
  */
-public class EditarFuncionarioState {
+public class EditarFuncionarioState extends ManterFuncionarioState{
     
+    private ManterFuncionarioView view;
+    
+
+    public EditarFuncionarioState(ManterFuncionarioPresenter presenter) {   
+        
+        
+    }
+    
+    public void edicao(){
+    
+    }
+    
+    private void editarFuncionario( Funcionario funcionario){
+    
+    }
 }

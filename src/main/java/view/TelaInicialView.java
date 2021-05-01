@@ -1,9 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package view;
+
+import javax.swing.JMenuItem;
 
 /**
  *
@@ -29,9 +26,12 @@ public class TelaInicialView extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
+        menu = new javax.swing.JMenu();
+        menuFuncionario = new javax.swing.JMenuItem();
+        menu4 = new javax.swing.JMenu();
+        menuSalario = new javax.swing.JMenuItem();
+        menu2 = new javax.swing.JMenu();
+        menuFerramenta = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sistema de Gestão de Pessoas");
@@ -47,14 +47,56 @@ public class TelaInicialView extends javax.swing.JFrame {
             .addGap(0, 278, Short.MAX_VALUE)
         );
 
-        jMenu1.setText("Funcionario");
-        jMenuBar1.add(jMenu1);
+        menu.setText("Funcionario");
+        menu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuActionPerformed(evt);
+            }
+        });
 
-        jMenu2.setText("Salario");
-        jMenuBar1.add(jMenu2);
+        menuFuncionario.setText("Funcionario");
+        menuFuncionario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuFuncionarioActionPerformed(evt);
+            }
+        });
+        menu.add(menuFuncionario);
 
-        jMenu3.setText("Ferramentas");
-        jMenuBar1.add(jMenu3);
+        jMenuBar1.add(menu);
+
+        menu4.setText("Salario");
+        menu4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menu4ActionPerformed(evt);
+            }
+        });
+
+        menuSalario.setText("Salario");
+        menuSalario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuSalarioActionPerformed(evt);
+            }
+        });
+        menu4.add(menuSalario);
+
+        jMenuBar1.add(menu4);
+
+        menu2.setText("Ferramentas");
+        menu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menu2ActionPerformed(evt);
+            }
+        });
+
+        menuFerramenta.setText("Ferramentas");
+        menuFerramenta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuFerramentaActionPerformed(evt);
+            }
+        });
+        menu2.add(menuFerramenta);
+
+        jMenuBar1.add(menu2);
 
         setJMenuBar(jMenuBar1);
 
@@ -74,46 +116,58 @@ public class TelaInicialView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TelaInicialView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TelaInicialView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TelaInicialView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TelaInicialView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+    private void menuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuActionPerformed
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TelaInicialView().setVisible(true);
-            }
-        });
-    }
+    private void menu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menu4ActionPerformed
+
+    private void menu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menu2ActionPerformed
+
+    private void menuFuncionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuFuncionarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuFuncionarioActionPerformed
+
+    private void menuSalarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSalarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuSalarioActionPerformed
+
+    private void menuFerramentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuFerramentaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuFerramentaActionPerformed
+
+   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JMenu menu;
+    private javax.swing.JMenu menu2;
+    private javax.swing.JMenu menu4;
+    private javax.swing.JMenuItem menuFerramenta;
+    private javax.swing.JMenuItem menuFuncionario;
+    private javax.swing.JMenuItem menuSalario;
     // End of variables declaration//GEN-END:variables
+
+    public JMenuItem getMenuFerramenta() {
+        return menuFerramenta;
+    }
+
+    public JMenuItem getMenuFuncionario() {
+        return menuFuncionario;
+    }
+
+    public JMenuItem getMenuSalario() {
+        return menuSalario;
+    }
+
+
+
+
+
+
 }

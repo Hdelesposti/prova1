@@ -1,14 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package state;
+
+import presenter.ManterFuncionarioPresenter;
+import view.ManterFuncionarioView;
 
 /**
  *
  * @author Heloiza
  */
-public class IncluirFuncionarioState {
+public class IncluirFuncionarioState extends ManterFuncionarioState {
+    
+    private ManterFuncionarioView view;
+
+    public IncluirFuncionarioState(ManterFuncionarioPresenter presenter) {
+        this.view = view;
+    }
+    
+    
+    public void inclusao(){
+    
+    
+    }
+    public void Salvar(){
+    
+    }
+    
+    
+    
     
 }

@@ -39,6 +39,10 @@ public class BuscarFuncionarioPresenter {
        
     }
     
+    public void abrir(){
+        view.setVisible(true);
+    }
+    
     
     
     

@@ -45,6 +45,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
             }
         });
 
+        btnBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/btnbuscar.png"))); // NOI18N
         btnBuscar.setText("Buscar");
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,6 +85,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
             jTable1.getColumnModel().getColumn(4).setResizable(false);
         }
 
+        btnFechar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/btnfechar.png"))); // NOI18N
         btnFechar.setText("Fechar");
         btnFechar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,6 +100,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
             }
         });
 
+        btnBonus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/btnbonus.png"))); // NOI18N
         btnBonus.setText("Ver Bônus");
         btnBonus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,6 +108,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
             }
         });
 
+        btnVisualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/btnusuario.png"))); // NOI18N
         btnVisualizar.setText("Visualizar");
         btnVisualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
